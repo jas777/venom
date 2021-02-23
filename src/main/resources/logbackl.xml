@@ -1,0 +1,12 @@
+<configuration debug="false">
+    <appender name="venom" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
+            <layout class="com.venomdevteam.venom.util.logger.LoggerLayout">
+                <prefix>Venom</prefix>
+            </layout>
+        </encoder>
+    </appender>
+    <root level="info">
+        <appender-ref ref="venom" />
+    </root>
+</configuration>

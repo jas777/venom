@@ -1,0 +1,8 @@
+build/
+.gradle/
+out/
+.shelf/
+.settings/
+bin/
+gradle/
+config.toml
